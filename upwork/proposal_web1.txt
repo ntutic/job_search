@@ -1,0 +1,21 @@
+Hi,
+
+You can see some of my GUI projects in the images attached, I have made extensions, namely used in a company of >60, and many desktop GUIs, mostly in the farming industry. Please refer to my profile portfolio¹ if you wish to see more.
+
+I propose to complete this project for a fixed price of $300 based on my 12h estimate at $25/h shown below². Since you need this as a web app per my understanding, I would do it with Django to create a simple page with a form to upload both of your files. The processing will happen on picture upload with a Python script for merging the pictures as shown using a library such as PIL. You will see displayed on the webapp both the input pictures and the output merge, with a "download" button.
+
+If you want this as a simple local app, I can compile the project so that you get a dependency-free .exe file that starts the server. It will come with a system tray icon for exit and as a status indicator. You can then load your app in your browser like "localhost:8090" (the app could launch it at start, and the tray icon could have a "open" option). Otherwise, you can host the project on your own machine or some place like AWS EC2 on an open port to make it available on one of your domains.
+
+But if you don't need to make this web-based as introduced, we can make a simple desktop app with Python and Qt to give you an application window open with the .exe. It would have the same layout and description laid out above. 
+
+Kindly thank you for your consideration,
+Nikola
+
+¹: 
+²: Time estimate :
+3h: UI
+1h: Image processing
+2h: Input validation
+2h: Testing and debugging
+2h: Buffer
+

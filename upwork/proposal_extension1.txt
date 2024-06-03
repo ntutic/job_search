@@ -1,0 +1,21 @@
+Hi, 
+
+You can refer to some relevant projects like a Clockify overhaul extension¹, a MongoDB data overlay matching some website's account² and my experience with scraping³. The first one is used in a company of over 60 people and my other desktop GUIs⁴ are used in multiple dairy farms.
+
+I would propose to make your extension as follows, per Manifest V3 :
+- `content_script` for both Telegram and WA web pages that will scrape the pages and add some form for selecting media/files to upload and/or download buttons overlaid to target media. 
+- `background` script will be used to allow functions making HTTP requests over fetch() to the Zoho WorkDrive API from the `content_script`s and to launch a page for the user's initial API config on extension install.
+- `host_permissions` has to allow for all 3 websites.
+- The Chrome Extension's local storage will be used for the user's API key as we'll need it for the uploading. We can either have the extension automatically fetch it or have the user input it themselves.
+
+Your estimation seems fair as scraping and overhauling dynamic pages like WA and Telegram, especially with Meta's capacity for heavy HTML obfuscation, writing the logic for it will take much longer than a typical webapp. Reserving about 10h for the scrapers, 5h for the UI + Extension, 2h for the Zoho API and 3h of buffer at my typical $25/h rate sounds about right.
+
+I would aim for completion prior to February 9th, but possible quite sooner if it goes smoothly. I will have time to get started on it around Wednesday.
+
+Kindly thank you for your consideration,
+Nikola
+
+¹: See image and https://chromewebstore.google.com/detail/weekly-clockify/oejclklollnadllgjcpaopapmckpeaim
+²: See image
+³: See https://www.upwork.com/freelancers/~01d06d647eb569a541?p=1732892441324417024
+⁴: See image

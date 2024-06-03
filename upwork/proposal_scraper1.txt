@@ -1,0 +1,23 @@
+Hi,
+
+While we would need to talk details, the solution I propose would be this price for a fairly simple scraper and comes with the following parts :
+- script in Python for scraping the data with an appropriate library (scrapy, Selenium or requests based on your needs);
+- a graphical user interface where the user can configure and launch the script¹;
+- compiled to a native Windows (.exe) or Linux application, no Python dependencies for running the program;
+- output results to any file (i.e. CSV, JSON, ...) or cloud storage/database (i.e. AWS S3 & RDS, ...);
+- a system tray icon for easy access and current status if program is to be running in the background; 
+
+If the crawler you're after is quite complex then we might renegotiate the price, but for a reasonably simple project this should be fine. 
+
+
+Thank you,
+Nikola
+
+I've been building scrapers since I started programming and from my first projects on Upwork. 
+I've made robust software like a Chrome extension² used in a company of over 60 and multiple GUIs³ for monitoring and controlling dairy industrial machines
+
+²: See image and https://chromewebstore.google.com/detail/weekly-clockify/oejclklollnadllgjcpaopapmckpeaim
+³: See image and project at https://www.upwork.com/freelancers/~01d06d647eb569a541?p=1732888668871503872
+
+I've been building scrapers since I started programming and from my first projects on Upwork. 
+I've made robust software like a Chrome extension used by a company of over 60 people for time management²
